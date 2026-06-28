@@ -11,6 +11,12 @@ This repo is a public portfolio artifact showing how I think about clinical AI c
 - `templates/workflow-intake.md`
 - `templates/human-review-plan.md`
 
+## Recruiter Quick Scan
+
+This repo shows the consulting side of my work. I am not only interested in building demos; I am interested in deciding whether a healthcare AI workflow is appropriate, safe enough to test, and useful enough to keep.
+
+Why it matters: medical AI consulting is partly technical and partly judgment. The hard questions are often about scope, accountability, missing data, escalation, and evaluation.
+
 ## Core Principles
 
 - Use synthetic data for public demos and early prototypes.
@@ -22,3 +28,10 @@ This repo is a public portfolio artifact showing how I think about clinical AI c
 ## Not Medical Advice
 
 This playbook is educational and consulting-oriented. It does not provide diagnosis, treatment recommendations, or legal advice.
+
+## Next Build Ideas
+
+- Add a synthetic case-study review using the workflow intake template.
+- Add an AI-output review rubric with pass/fail examples.
+- Add a vendor-evaluation checklist for small healthcare practices.
+- Add a one-page executive briefing template for non-technical stakeholders.
