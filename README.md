@@ -10,6 +10,7 @@ This repo is a public portfolio artifact showing how I think about clinical AI c
 - `checklists/model-evaluation-checklist.md`
 - `templates/workflow-intake.md`
 - `templates/human-review-plan.md`
+- `docs/synthetic-case-review.md`
 
 ## Recruiter Quick Scan
 
