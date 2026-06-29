@@ -4,8 +4,13 @@ Practical checklists and templates for evaluating healthcare AI workflow ideas.
 
 This repo is a public portfolio artifact showing how I think about clinical AI consulting: start with workflow reality, define what the AI should and should not do, protect sensitive data, and keep accountable humans in the loop.
 
+![Medical AI consulting review matrix](assets/consulting-review-matrix.svg)
+
+The review canvas shows the consulting flow I use for healthcare AI ideas: clarify the workflow, name the data boundary, define the AI role, require human review, and evaluate both value and risk.
+
 ## Contents
 
+- `assets/consulting-review-matrix.svg`
 - `checklists/phi-safety-checklist.md`
 - `checklists/model-evaluation-checklist.md`
 - `templates/workflow-intake.md`

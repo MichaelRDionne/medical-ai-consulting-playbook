@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Medical AI consulting review matrix</title>
+  <desc id="desc">A synthetic workflow review canvas showing intake, data boundary, AI role, human review, evaluation, and risk controls.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef6f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .bg { fill: #f3f6f8; }
+      .shell { fill: url(#panel); stroke: #d9e2e7; stroke-width: 1.5; filter: url(#shadow); }
+      .ink { fill: #172033; font-family: Inter, Arial, sans-serif; }
+      .muted { fill: #52606d; font-family: Inter, Arial, sans-serif; }
+      .tiny { font-size: 14px; }
+      .label { font-size: 16px; font-weight: 700; }
+      .headline { font-size: 34px; font-weight: 800; }
+      .card { fill: #ffffff; stroke: #d7e1e7; stroke-width: 1.2; }
+      .chip { fill: #e7f5f2; stroke: #9ed4cb; stroke-width: 1; }
+      .chip2 { fill: #fff4db; stroke: #e9c46a; stroke-width: 1; }
+      .chip3 { fill: #fce8e8; stroke: #ee9a9a; stroke-width: 1; }
+      .line { stroke: #9fb3c8; stroke-width: 2.5; stroke-linecap: round; }
+      .axis { stroke: #cbd5df; stroke-width: 1.2; }
+      .safe { fill: #caeadf; }
+      .watch { fill: #ffe7b3; }
+      .stop { fill: #f7c8c8; }
+      .teal { fill: #1f7a76; }
+      .blue { fill: #2f5f98; }
+      .gold { fill: #b97915; }
+      .red { fill: #b83a3a; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="540"/>
+  <rect class="shell" x="36" y="30" width="888" height="480" rx="18"/>
+
+  <text class="ink headline" x="72" y="84">Medical AI Consulting Review Canvas</text>
+  <text class="muted tiny" x="73" y="112">Synthetic public artifact: map the workflow, set the AI boundary, require human accountability, then test outcomes.</text>
+
+  <g transform="translate(72 148)">
+    <rect class="card" x="0" y="0" width="156" height="104" rx="10"/>
+    <circle class="teal" cx="28" cy="30" r="11"/>
+    <text class="ink label" x="48" y="35">Workflow</text>
+    <text class="muted tiny" x="18" y="64">What job is painful?</text>
+    <text class="muted tiny" x="18" y="86">Who owns the outcome?</text>
+  </g>
+
+  <line class="line" x1="232" y1="200" x2="272" y2="200"/>
+
+  <g transform="translate(278 148)">
+    <rect class="card" x="0" y="0" width="156" height="104" rx="10"/>
+    <circle class="blue" cx="28" cy="30" r="11"/>
+    <text class="ink label" x="48" y="35">Data</text>
+    <text class="muted tiny" x="18" y="64">Synthetic first</text>
+    <text class="muted tiny" x="18" y="86">PHI boundary named</text>
+  </g>
+
+  <line class="line" x1="438" y1="200" x2="478" y2="200"/>
+
+  <g transform="translate(484 148)">
+    <rect class="card" x="0" y="0" width="156" height="104" rx="10"/>
+    <circle class="gold" cx="28" cy="30" r="11"/>
+    <text class="ink label" x="48" y="35">AI Role</text>
+    <text class="muted tiny" x="18" y="64">Draft, classify, summarize</text>
+    <text class="muted tiny" x="18" y="86">No final judgment</text>
+  </g>
+
+  <line class="line" x1="644" y1="200" x2="684" y2="200"/>
+
+  <g transform="translate(690 148)">
+    <rect class="card" x="0" y="0" width="156" height="104" rx="10"/>
+    <circle class="red" cx="28" cy="30" r="11"/>
+    <text class="ink label" x="48" y="35">Review</text>
+    <text class="muted tiny" x="18" y="64">Human-in-loop gate</text>
+    <text class="muted tiny" x="18" y="86">Escalation visible</text>
+  </g>
+
+  <g transform="translate(72 300)">
+    <rect class="card" x="0" y="0" width="390" height="158" rx="12"/>
+    <text class="ink label" x="22" y="34">Risk Controls</text>
+    <rect class="chip3" x="22" y="54" width="162" height="32" rx="16"/>
+    <text class="ink tiny" x="42" y="75">PHI exposure stop</text>
+    <rect class="chip2" x="202" y="54" width="148" height="32" rx="16"/>
+    <text class="ink tiny" x="224" y="75">Missing context</text>
+    <rect class="chip" x="22" y="102" width="172" height="32" rx="16"/>
+    <text class="ink tiny" x="43" y="123">Clinician review</text>
+    <rect class="chip" x="212" y="102" width="132" height="32" rx="16"/>
+    <text class="ink tiny" x="234" y="123">Audit trail</text>
+  </g>
+
+  <g transform="translate(512 300)">
+    <rect class="card" x="0" y="0" width="334" height="158" rx="12"/>
+    <text class="ink label" x="22" y="34">Evaluation Matrix</text>
+    <line class="axis" x1="42" y1="120" x2="292" y2="120"/>
+    <line class="axis" x1="42" y1="56" x2="42" y2="120"/>
+    <text class="muted tiny" x="105" y="145">Workflow value</text>
+    <text class="muted tiny" x="14" y="50">Risk</text>
+    <circle class="safe" cx="112" cy="104" r="18"/>
+    <circle class="watch" cx="190" cy="78" r="18"/>
+    <circle class="stop" cx="252" cy="62" r="18"/>
+    <text class="ink tiny" x="92" y="109">test</text>
+    <text class="ink tiny" x="168" y="83">watch</text>
+    <text class="ink tiny" x="235" y="67">stop</text>
+  </g>
+
+  <text class="muted tiny" x="72" y="486">Public portfolio example only. No patient data, no live vendor exports, no clinical advice.</text>
+</svg>
